@@ -11,7 +11,7 @@
       <hollow-dots-spinner
         v-if="spin"
         :animation-duration="1000"
-        :dot-size="15"
+        :dot-size="20"
         :dots-num="3"
         color="white"
       />
@@ -90,7 +90,7 @@ input.btn.btn-secondary {
   border-radius: 100%;
 }
 .hollow-dots-spinner {
-  position: relative;
+  position: absolute;
   left: 35%;
   top: 250px;
 }
