@@ -20,7 +20,11 @@
         <div>
           {{ word }}
           <div v-for="(meaning, ind) in results" :key="ind">
-            {{ ind + 1 }}. {{ meaning.wordtype }} {{ meaning.definition }}
+            {{ ind + 1 }}. 
+            <br>
+            {{ meaning.wordtype }} {{ meaning.definition }}
+            <br>
+            <br>
           </div>
         </div>
       </div>
