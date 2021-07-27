@@ -4,7 +4,7 @@ let headers = {
   "Content-Type": "application/json",
 };
 
-const serverUrl = "http://localhost:3000";
+const serverUrl = "https://mydictionary-backend.herokuapp.com";
 
 const APIs = {
   getMeaning(word) {
