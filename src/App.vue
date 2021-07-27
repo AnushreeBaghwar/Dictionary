@@ -27,9 +27,9 @@
       />
       <div v-if="showResults" class="result">
         <div>
-          <h3 id="text">{{ results[0].word }}</h3>
           <font-awesome-icon icon="volume-up" @click="textToAudio" />
           <div id="definitions" v-for="(meaning, ind) in results" :key="ind">
+            <h3 id="text">{{ meaning.word }}</h3>
             {{ ind + 1 }}. {{ meaning.wordtype }} {{ meaning.definition }}
             <br />
             <br />
